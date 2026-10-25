@@ -5,5 +5,5 @@ if [ $uid -ne 0 ]; then
     exit 1
 fi
 
-dnf install nginix -y
-echo "Nginix installation completed"
+dnf install nginx -y
+echo "Nginx installation completed"
