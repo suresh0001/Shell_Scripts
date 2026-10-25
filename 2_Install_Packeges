@@ -6,4 +6,9 @@ if [ $uid -ne 0 ]; then
 fi
 
 dnf install nginx -y
-echo "Nginx installation completed"
+if [ $? -ne 0 ]; then
+
+    echo "Nginx installation is failed"
+else
+    echo "Nginx installation is success"
+fi
