@@ -1,4 +1,5 @@
 #!/bin/bash
+uid=$(id -u)
 if [ $uid -ne 0 ]; then
     echo "Please run the script with sudo user:"
     exit 1
