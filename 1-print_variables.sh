@@ -5,5 +5,5 @@ if [ $uid -ne 0 ]; then
     exit 1
 fi
 
-message=This script is executed successfully
+message="This script is executed successfully"
 echo "$message"
